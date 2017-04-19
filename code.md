@@ -1,4 +1,5 @@
-```java
+```groovy
+
 package co.jware.sojka.entities.core.metasearch
 
 import co.jware.sojka.core.entities.listeners.MetaLinkListener
