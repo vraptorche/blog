@@ -1,14 +1,28 @@
 <!doctype html>
 <html>
 <head>
+    <style>
+        #main {
+            display: flex;
+        }
 
+        #main aside {
+            flex: 1;
+        }
+
+        #main article {
+            flex: 2;
+        }
+    </style>
 </head>
 <body>
-<aside>
-    <ul>
-        <li>WebSockets</li>
-    </ul>
-</aside>
-<article>{{ content }}</article>
+<div id="main">
+    <aside>
+        <ul>
+            <li>WebSockets</li>
+        </ul>
+    </aside>
+    <article>{{ content }}</article>
+</div>
 </body>
 </html>

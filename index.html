@@ -5,10 +5,12 @@ layout: default
 <h2>vRaptor von JurassicWare</h2>
 
 
-{% capture code %}
-{% include_relative code.md %}
-{% endcapture %}
+<!--{% capture code %}-->
+<!--{% include_relative code.md %}-->
+<!--{% endcapture %}-->
 
 <section>
-    {{ code | markdownify }}
+    {% include_relative code.md %}
+    <!--{{ code | markdownify }}-->
+
 </section>
