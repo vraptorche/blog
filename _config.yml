@@ -1,5 +1,5 @@
 theme: jekyll-theme-time-machine
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
