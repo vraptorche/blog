@@ -6,7 +6,9 @@ layout: default
 
 
 {% capture code %}
-  {% include_relative code.md %}
+{% include_relative code.md %}
 {% endcapture %}
 
-{{ code | markdownify }}
+<section>
+    {{ code | markdownify }}
+</section>
